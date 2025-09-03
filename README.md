@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project automates the setup of multiple folder structures for organizing data files in Python. It is a fork of the original [datafun-02-automation](https://github.com/haileylhanson/datafun-02-automation) and expands on the initialization to support five folder variations for different data types and organizational needs.
+This project automates the setup of multiple folder structures for organizing data files in Python. It is a fork of the original https://github.com/haileylhanson/datafun-02-automation and expands on the that project initialization to support five folder variations for different data types and organizational needs.
 
 ## Features
 
