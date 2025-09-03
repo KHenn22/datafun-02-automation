@@ -1,7 +1,36 @@
-2025-09-02 17:03:54 | INFO | __main__:48 | Logger loaded.
-2025-09-02 17:03:54 | INFO | __main__:163 | STARTING main()..
-2025-09-02 17:03:54 | INFO | __main__:164 | Byline:
+2025-09-02 19:32:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 19:32:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 19:32:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 19:32:23 | INFO | __main__:115 | FUNCTION: create_folders_from_list()
+2025-09-02 19:32:23 | INFO | __main__:116 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 19:32:23 | INFO | __main__:121 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 19:32:23 | INFO | __main__:121 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 19:32:23 | INFO | __main__:121 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 19:32:23 | INFO | __main__:363 | FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 19:32:23 | INFO | __main__:364 | PARAMETERS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 19:32:23 | INFO | __main__:374 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_csv
+2025-09-02 19:32:23 | INFO | __main__:374 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_excel
+2025-09-02 19:32:23 | INFO | __main__:374 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_json
+2025-09-02 19:32:23 | INFO | __main__:352 | FUNCTION: create_folders_periodically()
+2025-09-02 19:32:23 | INFO | __main__:353 | PARAMETER: duration_seconds = 5
+2025-09-02 19:32:23 | INFO | __main__:396 | FUNCTION: create_standardized_folders()
+2025-09-02 19:32:23 | INFO | __main__:397 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 19:32:23 | INFO | __main__:432 | 
+#####################################
+2025-09-02 19:32:23 | INFO | __main__:433 | # Completed execution of main()
+2025-09-02 19:32:23 | INFO | __main__:434 | #####################################
+2025-09-02 19:49:28 | INFO | utils_hennelly:48 | Logger loaded.
+2025-09-02 19:49:28 | INFO | __main__:36 | Logger loaded.
+2025-09-02 19:49:28.680 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-09-02 19:49:28 | INFO | __main__:255 | #####################################
+2025-09-02 19:49:28.681 | INFO     | __main__:main:255 - #####################################
+2025-09-02 19:49:28 | INFO | __main__:256 | # Starting execution of main()
+2025-09-02 19:49:28.681 | INFO     | __main__:main:256 - # Starting execution of main()
+2025-09-02 19:49:28 | INFO | __main__:257 | #####################################
 
+2025-09-02 19:49:28.681 | INFO     | __main__:main:257 - #####################################
+
+2025-09-02 19:49:28 | INFO | __main__:259 | Byline: 
 **********************************************************
 Pithy Python — Project Header
 **********************************************************
@@ -24,6 +53,665 @@ Mean Satisfaction Score:    4.80
      Standard Deviation:    0.16
 **********************************************************
 
-2025-09-02 17:04:34 | INFO | __main__:174 | This module is organized like all Python modules.
-2025-09-02 17:04:34 | INFO | __main__:175 | We write professional Python from the start.
-2025-09-02 17:04:34 | INFO | __main__:176 | END main()...
+2025-09-02 19:49:28.681 | INFO     | __main__:main:259 - Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 19:49:28 | INFO | __main__:74 | FUNCTION: create_folders_for_range()
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_for_range:74 - FUNCTION: create_folders_for_range()
+2025-09-02 19:49:28 | INFO | __main__:75 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_for_range:75 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 19:49:28 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 19:49:28 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 19:49:28 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 19:49:28 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 19:49:28 | INFO | __main__:119 | FUNCTION: create_folders_from_list()
+2025-09-02 19:49:28.682 | INFO     | __main__:create_folders_from_list:119 - FUNCTION: create_folders_from_list()
+2025-09-02 19:49:28 | INFO | __main__:120 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_from_list:120 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 19:49:28 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 19:49:28 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 19:49:28 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 19:49:28 | INFO | __main__:149 | FUNCTION: create_prefixed_folders()
+2025-09-02 19:49:28.683 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:149 - FUNCTION: create_prefixed_folders()
+2025-09-02 19:49:28 | INFO | __main__:150 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-02 19:49:28.683 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:150 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-02 19:49:28 | INFO | __main__:207 | FUNCTION: create_folders_periodically()
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_periodically:207 - FUNCTION: create_folders_periodically()
+2025-09-02 19:49:28 | INFO | __main__:208 | PARAMETERS: duration_seconds = 5, count = 5
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_periodically:208 - PARAMETERS: duration_seconds = 5, count = 5
+2025-09-02 19:49:28 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 19:49:28 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 19:49:28.683 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 19:49:33 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 19:49:33.687 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 19:49:33 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 19:49:33.687 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 19:49:38 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 19:49:38.693 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 19:49:38 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 19:49:38.693 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 19:49:43 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_4
+2025-09-02 19:49:43.698 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_4
+2025-09-02 19:49:43 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 19:49:43.699 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 19:49:48 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_5
+2025-09-02 19:49:48.704 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_5
+2025-09-02 19:49:48 | INFO | __main__:243 | FUNCTION: create_standardized_folders()
+2025-09-02 19:49:48.705 | INFO     | __main__:create_standardized_folders:243 - FUNCTION: create_standardized_folders()
+2025-09-02 19:49:48 | INFO | __main__:244 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 19:49:48.705 | INFO     | __main__:create_standardized_folders:244 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 19:49:48 | INFO | __main__:280 | 
+#####################################
+2025-09-02 19:49:48.705 | INFO     | __main__:main:280 - 
+#####################################
+2025-09-02 19:49:48 | INFO | __main__:281 | # Completed execution of main()
+2025-09-02 19:49:48.706 | INFO     | __main__:main:281 - # Completed execution of main()
+2025-09-02 19:49:48 | INFO | __main__:282 | #####################################
+2025-09-02 19:49:48.706 | INFO     | __main__:main:282 - #####################################
+2025-09-02 19:49:48 | INFO | __main__:412 | #####################################
+2025-09-02 19:49:48.706 | INFO     | __main__:main:412 - #####################################
+2025-09-02 19:49:48 | INFO | __main__:413 | # Starting execution of main()
+2025-09-02 19:49:48.707 | INFO     | __main__:main:413 - # Starting execution of main()
+2025-09-02 19:49:48 | INFO | __main__:414 | #####################################
+
+2025-09-02 19:49:48.707 | INFO     | __main__:main:414 - #####################################
+
+2025-09-02 19:49:48 | INFO | __main__:415 | Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 19:49:48.707 | INFO     | __main__:main:415 - Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 19:49:48 | INFO | __main__:74 | FUNCTION: create_folders_for_range()
+2025-09-02 19:49:48.707 | INFO     | __main__:create_folders_for_range:74 - FUNCTION: create_folders_for_range()
+2025-09-02 19:49:48 | INFO | __main__:75 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 19:49:48.707 | INFO     | __main__:create_folders_for_range:75 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 19:49:48 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 19:49:48.708 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 19:49:48 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 19:49:48.708 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 19:49:48 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 19:49:48.708 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 19:49:48 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 19:49:48.709 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 19:49:48 | INFO | __main__:119 | FUNCTION: create_folders_from_list()
+2025-09-02 19:49:48.709 | INFO     | __main__:create_folders_from_list:119 - FUNCTION: create_folders_from_list()
+2025-09-02 19:49:48 | INFO | __main__:120 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 19:49:48.709 | INFO     | __main__:create_folders_from_list:120 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 19:49:48 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 19:49:48.709 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 19:49:48 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 19:49:48.709 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 19:49:48 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 19:49:48.709 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 19:49:48 | INFO | __main__:367 | FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 19:49:48.710 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:367 - FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 19:49:48 | INFO | __main__:368 | PARAMETERS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 19:49:48.710 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:368 - PARAMETERS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 19:49:48 | INFO | __main__:378 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_csv
+2025-09-02 19:49:48.710 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:378 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_csv
+2025-09-02 19:49:48 | INFO | __main__:378 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_excel
+2025-09-02 19:49:48.710 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:378 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_excel
+2025-09-02 19:49:48 | INFO | __main__:378 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_json
+2025-09-02 19:49:48.710 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:378 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_json
+2025-09-02 19:49:48 | INFO | __main__:356 | FUNCTION: create_folders_periodically()
+2025-09-02 19:49:48.711 | INFO     | __main__:create_folders_periodically:356 - FUNCTION: create_folders_periodically()
+2025-09-02 19:49:48 | INFO | __main__:357 | PARAMETER: duration_seconds = 5
+2025-09-02 19:49:48.711 | INFO     | __main__:create_folders_periodically:357 - PARAMETER: duration_seconds = 5
+2025-09-02 19:49:48 | INFO | __main__:400 | FUNCTION: create_standardized_folders()
+2025-09-02 19:49:48.711 | INFO     | __main__:create_standardized_folders:400 - FUNCTION: create_standardized_folders()
+2025-09-02 19:49:48 | INFO | __main__:401 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 19:49:48.711 | INFO     | __main__:create_standardized_folders:401 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 19:49:48 | INFO | __main__:436 | 
+#####################################
+2025-09-02 19:49:48.711 | INFO     | __main__:main:436 - 
+#####################################
+2025-09-02 19:49:48 | INFO | __main__:437 | # Completed execution of main()
+2025-09-02 19:49:48.711 | INFO     | __main__:main:437 - # Completed execution of main()
+2025-09-02 19:49:48 | INFO | __main__:438 | #####################################
+2025-09-02 19:49:48.711 | INFO     | __main__:main:438 - #####################################
+2025-09-02 20:13:03 | INFO | utils_hennelly:48 | Logger loaded.
+2025-09-02 20:13:03 | INFO | __main__:36 | Logger loaded.
+2025-09-02 20:13:03.807 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-09-02 20:13:03 | INFO | __main__:255 | #####################################
+2025-09-02 20:13:03.807 | INFO     | __main__:main:255 - #####################################
+2025-09-02 20:13:03 | INFO | __main__:256 | # Starting execution of main()
+2025-09-02 20:13:03.807 | INFO     | __main__:main:256 - # Starting execution of main()
+2025-09-02 20:13:03 | INFO | __main__:257 | #####################################
+
+2025-09-02 20:13:03.807 | INFO     | __main__:main:257 - #####################################
+
+2025-09-02 20:13:03 | INFO | __main__:259 | Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:13:03.808 | INFO     | __main__:main:259 - Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:13:03 | INFO | __main__:74 | FUNCTION: create_folders_for_range()
+2025-09-02 20:13:03.808 | INFO     | __main__:create_folders_for_range:74 - FUNCTION: create_folders_for_range()
+2025-09-02 20:13:03 | INFO | __main__:75 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 20:13:03.808 | INFO     | __main__:create_folders_for_range:75 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 20:13:03 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 20:13:03.808 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 20:13:03 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 20:13:03.808 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 20:13:03 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 20:13:03.808 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 20:13:03 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 20:13:03.809 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 20:13:03 | INFO | __main__:119 | FUNCTION: create_folders_from_list()
+2025-09-02 20:13:03.809 | INFO     | __main__:create_folders_from_list:119 - FUNCTION: create_folders_from_list()
+2025-09-02 20:13:03 | INFO | __main__:120 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:13:03.809 | INFO     | __main__:create_folders_from_list:120 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:13:03 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 20:13:03.809 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 20:13:03 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 20:13:03.809 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 20:13:03 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 20:13:03.809 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 20:13:03 | INFO | __main__:149 | FUNCTION: create_prefixed_folders()
+2025-09-02 20:13:03.809 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:149 - FUNCTION: create_prefixed_folders()
+2025-09-02 20:13:03 | INFO | __main__:150 | PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-02 20:13:03.810 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:150 - PARAMETERS: folder_list = ['csv', 'excel', 'json'], prefix = output-
+2025-09-02 20:13:03 | INFO | __main__:207 | FUNCTION: create_folders_periodically()
+2025-09-02 20:13:03.810 | INFO     | __main__:create_folders_periodically:207 - FUNCTION: create_folders_periodically()
+2025-09-02 20:13:03 | INFO | __main__:208 | PARAMETERS: duration_seconds = 5, count = 5
+2025-09-02 20:13:03.810 | INFO     | __main__:create_folders_periodically:208 - PARAMETERS: duration_seconds = 5, count = 5
+2025-09-02 20:13:03 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 20:13:03.810 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 20:13:03 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 20:13:03.810 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 20:13:08 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 20:13:08.814 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 20:13:08 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 20:13:08.814 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 20:13:13 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 20:13:13.816 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 20:13:13 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 20:13:13.817 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 20:13:18 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_4
+2025-09-02 20:13:18.818 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_4
+2025-09-02 20:13:18 | INFO | __main__:220 | Waiting 5 seconds before next folder...
+2025-09-02 20:13:18.818 | INFO     | __main__:create_folders_periodically:220 - Waiting 5 seconds before next folder...
+2025-09-02 20:13:23 | INFO | __main__:216 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_5
+2025-09-02 20:13:23.824 | INFO     | __main__:create_folders_periodically:216 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_5
+2025-09-02 20:13:23 | INFO | __main__:243 | FUNCTION: create_standardized_folders()
+2025-09-02 20:13:23.824 | INFO     | __main__:create_standardized_folders:243 - FUNCTION: create_standardized_folders()
+2025-09-02 20:13:23 | INFO | __main__:244 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 20:13:23.825 | INFO     | __main__:create_standardized_folders:244 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 20:13:23 | INFO | __main__:280 | 
+#####################################
+2025-09-02 20:13:23.825 | INFO     | __main__:main:280 - 
+#####################################
+2025-09-02 20:13:23 | INFO | __main__:281 | # Completed execution of main()
+2025-09-02 20:13:23.825 | INFO     | __main__:main:281 - # Completed execution of main()
+2025-09-02 20:13:23 | INFO | __main__:282 | #####################################
+2025-09-02 20:13:23.825 | INFO     | __main__:main:282 - #####################################
+2025-09-02 20:13:23 | INFO | __main__:412 | #####################################
+2025-09-02 20:13:23.826 | INFO     | __main__:main:412 - #####################################
+2025-09-02 20:13:23 | INFO | __main__:413 | # Starting execution of main()
+2025-09-02 20:13:23.826 | INFO     | __main__:main:413 - # Starting execution of main()
+2025-09-02 20:13:23 | INFO | __main__:414 | #####################################
+
+2025-09-02 20:13:23.826 | INFO     | __main__:main:414 - #####################################
+
+2025-09-02 20:13:23 | INFO | __main__:415 | Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:13:23.826 | INFO     | __main__:main:415 - Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:13:23 | INFO | __main__:74 | FUNCTION: create_folders_for_range()
+2025-09-02 20:13:23.827 | INFO     | __main__:create_folders_for_range:74 - FUNCTION: create_folders_for_range()
+2025-09-02 20:13:23 | INFO | __main__:75 | PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 20:13:23.827 | INFO     | __main__:create_folders_for_range:75 - PARAMETERS: start_year = 2020, end_year = 2023
+2025-09-02 20:13:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 20:13:23.827 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2020
+2025-09-02 20:13:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 20:13:23.827 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2021
+2025-09-02 20:13:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 20:13:23.828 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2022
+2025-09-02 20:13:23 | INFO | __main__:84 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 20:13:23.828 | INFO     | __main__:create_folders_for_range:84 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/2023
+2025-09-02 20:13:23 | INFO | __main__:119 | FUNCTION: create_folders_from_list()
+2025-09-02 20:13:23.828 | INFO     | __main__:create_folders_from_list:119 - FUNCTION: create_folders_from_list()
+2025-09-02 20:13:23 | INFO | __main__:120 | PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:13:23.828 | INFO     | __main__:create_folders_from_list:120 - PARAMETER: folder_list = ['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:13:23 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 20:13:23.828 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-csv
+2025-09-02 20:13:23 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 20:13:23.829 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-excel
+2025-09-02 20:13:23 | INFO | __main__:125 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 20:13:23.829 | INFO     | __main__:create_folders_from_list:125 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/data-json
+2025-09-02 20:13:23 | INFO | __main__:367 | FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 20:13:23.829 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:367 - FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 20:13:23 | INFO | __main__:368 | PARAMETERS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 20:13:23.829 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:368 - PARAMETERS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 20:13:23 | INFO | __main__:378 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_csv
+2025-09-02 20:13:23.829 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:378 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_csv
+2025-09-02 20:13:23 | INFO | __main__:378 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_excel
+2025-09-02 20:13:23.829 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:378 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_excel
+2025-09-02 20:13:23 | INFO | __main__:378 | Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_json
+2025-09-02 20:13:23.830 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:378 - Created folder: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output-_json
+2025-09-02 20:13:23 | INFO | __main__:356 | FUNCTION: create_folders_periodically()
+2025-09-02 20:13:23.830 | INFO     | __main__:create_folders_periodically:356 - FUNCTION: create_folders_periodically()
+2025-09-02 20:13:23 | INFO | __main__:357 | PARAMETER: duration_seconds = 5
+2025-09-02 20:13:23.830 | INFO     | __main__:create_folders_periodically:357 - PARAMETER: duration_seconds = 5
+2025-09-02 20:13:23 | INFO | __main__:400 | FUNCTION: create_standardized_folders()
+2025-09-02 20:13:23.830 | INFO     | __main__:create_standardized_folders:400 - FUNCTION: create_standardized_folders()
+2025-09-02 20:13:23 | INFO | __main__:401 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 20:13:23.830 | INFO     | __main__:create_standardized_folders:401 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-02 20:13:23 | INFO | __main__:436 | 
+#####################################
+2025-09-02 20:13:23.831 | INFO     | __main__:main:436 - 
+#####################################
+2025-09-02 20:13:23 | INFO | __main__:437 | # Completed execution of main()
+2025-09-02 20:13:23.831 | INFO     | __main__:main:437 - # Completed execution of main()
+2025-09-02 20:13:23 | INFO | __main__:438 | #####################################
+2025-09-02 20:13:23.831 | INFO     | __main__:main:438 - #####################################
+2025-09-02 20:29:36 | INFO | utils_hennelly:48 | Logger loaded.
+2025-09-02 20:29:36 | INFO | __main__:36 | Logger loaded.
+2025-09-02 20:29:36.216 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-09-02 20:29:36 | INFO | __main__:191 | #####################################
+2025-09-02 20:29:36.217 | INFO     | __main__:main:191 - #####################################
+2025-09-02 20:29:36 | INFO | __main__:192 | # Starting execution of main()
+2025-09-02 20:29:36.217 | INFO     | __main__:main:192 - # Starting execution of main()
+2025-09-02 20:29:36 | INFO | __main__:193 | #####################################
+
+2025-09-02 20:29:36.217 | INFO     | __main__:main:193 - #####################################
+
+2025-09-02 20:29:36 | INFO | __main__:195 | Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:29:36.217 | INFO     | __main__:main:195 - Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:29:36 | INFO | __main__:67 | FUNCTION: create_folders_for_range()
+2025-09-02 20:29:36.217 | INFO     | __main__:create_folders_for_range:67 - FUNCTION: create_folders_for_range()
+2025-09-02 20:29:36 | INFO | __main__:68 | PARAMS: start_year=2020, end_year=2023
+2025-09-02 20:29:36.217 | INFO     | __main__:create_folders_for_range:68 - PARAMS: start_year=2020, end_year=2023
+2025-09-02 20:29:36 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2020
+2025-09-02 20:29:36.218 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2020
+2025-09-02 20:29:36 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2021
+2025-09-02 20:29:36.218 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2021
+2025-09-02 20:29:36 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2022
+2025-09-02 20:29:36.218 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2022
+2025-09-02 20:29:36 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2023
+2025-09-02 20:29:36.218 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2023
+2025-09-02 20:29:36 | INFO | __main__:92 | FUNCTION: create_folders_from_list()
+2025-09-02 20:29:36.218 | INFO     | __main__:create_folders_from_list:92 - FUNCTION: create_folders_from_list()
+2025-09-02 20:29:36 | INFO | __main__:93 | PARAMS: folder_list=['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:29:36.218 | INFO     | __main__:create_folders_from_list:93 - PARAMS: folder_list=['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:29:36 | INFO | __main__:103 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-csv
+2025-09-02 20:29:36.219 | INFO     | __main__:create_folders_from_list:103 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-csv
+2025-09-02 20:29:36 | INFO | __main__:103 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-excel
+2025-09-02 20:29:36.219 | INFO     | __main__:create_folders_from_list:103 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-excel
+2025-09-02 20:29:36 | INFO | __main__:103 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-json
+2025-09-02 20:29:36.219 | INFO     | __main__:create_folders_from_list:103 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-json
+2025-09-02 20:29:36 | INFO | __main__:118 | FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 20:29:36.219 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:118 - FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 20:29:36 | INFO | __main__:119 | PARAMS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 20:29:36.219 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:119 - PARAMS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 20:29:36 | INFO | __main__:130 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--csv
+2025-09-02 20:29:36.219 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--csv
+2025-09-02 20:29:36 | INFO | __main__:130 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--excel
+2025-09-02 20:29:36.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--excel
+2025-09-02 20:29:36 | INFO | __main__:130 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--json
+2025-09-02 20:29:36.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--json
+2025-09-02 20:29:36 | INFO | __main__:141 | FUNCTION: create_folders_periodically()
+2025-09-02 20:29:36.220 | INFO     | __main__:create_folders_periodically:141 - FUNCTION: create_folders_periodically()
+2025-09-02 20:29:36 | INFO | __main__:142 | PARAMS: duration_seconds=5, count=3
+2025-09-02 20:29:36.220 | INFO     | __main__:create_folders_periodically:142 - PARAMS: duration_seconds=5, count=3
+2025-09-02 20:29:36 | INFO | __main__:150 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 20:29:36.220 | INFO     | __main__:create_folders_periodically:150 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 20:29:36 | INFO | __main__:152 | Waiting 5s…
+2025-09-02 20:29:36.220 | INFO     | __main__:create_folders_periodically:152 - Waiting 5s…
+2025-09-02 20:29:41 | INFO | __main__:150 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 20:29:41.225 | INFO     | __main__:create_folders_periodically:150 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 20:29:41 | INFO | __main__:152 | Waiting 5s…
+2025-09-02 20:29:41.226 | INFO     | __main__:create_folders_periodically:152 - Waiting 5s…
+2025-09-02 20:29:46 | INFO | __main__:150 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 20:29:46.229 | INFO     | __main__:create_folders_periodically:150 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 20:29:46 | INFO | __main__:166 | FUNCTION: create_standardized_folders()
+2025-09-02 20:29:46.229 | INFO     | __main__:create_standardized_folders:166 - FUNCTION: create_standardized_folders()
+2025-09-02 20:29:46 | INFO | __main__:167 | PARAMS: to_lowercase=True, remove_spaces=True
+2025-09-02 20:29:46.230 | INFO     | __main__:create_standardized_folders:167 - PARAMS: to_lowercase=True, remove_spaces=True
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/north_america
+2025-09-02 20:29:46.230 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/north_america
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/south_america
+2025-09-02 20:29:46.231 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/south_america
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/europe
+2025-09-02 20:29:46.231 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/europe
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/asia
+2025-09-02 20:29:46.232 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/asia
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/africa
+2025-09-02 20:29:46.232 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/africa
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/oceania
+2025-09-02 20:29:46.232 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/oceania
+2025-09-02 20:29:46 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/middle_east
+2025-09-02 20:29:46.233 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/middle_east
+2025-09-02 20:29:46 | INFO | __main__:216 | 
+#####################################
+2025-09-02 20:29:46.233 | INFO     | __main__:main:216 - 
+#####################################
+2025-09-02 20:29:46 | INFO | __main__:217 | # Completed execution of main()
+2025-09-02 20:29:46.233 | INFO     | __main__:main:217 - # Completed execution of main()
+2025-09-02 20:29:46 | INFO | __main__:218 | #####################################
+2025-09-02 20:29:46.233 | INFO     | __main__:main:218 - #####################################
+2025-09-02 20:35:56 | INFO | utils_hennelly:48 | Logger loaded.
+2025-09-02 20:35:56 | INFO | __main__:36 | Logger loaded.
+2025-09-02 20:35:56.782 | INFO     | __main__:<module>:36 - Logger loaded.
+2025-09-02 20:35:56 | INFO | __main__:191 | #####################################
+2025-09-02 20:35:56.782 | INFO     | __main__:main:191 - #####################################
+2025-09-02 20:35:56 | INFO | __main__:192 | # Starting execution of main()
+2025-09-02 20:35:56.782 | INFO     | __main__:main:192 - # Starting execution of main()
+2025-09-02 20:35:56 | INFO | __main__:193 | #####################################
+
+2025-09-02 20:35:56.782 | INFO     | __main__:main:193 - #####################################
+
+2025-09-02 20:35:56 | INFO | __main__:195 | Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:35:56.782 | INFO     | __main__:main:195 - Byline: 
+**********************************************************
+Pithy Python — Project Header
+**********************************************************
+Author:                     Kevin Hennelly
+Motto:                      Squeezing Data Out of Your Numbers
+Years Active:               5
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Hiring?:                    False
+Number of Employees:        25
+Location:                   Honolulu, HI
+Office Locations:           ['St Louis', 'Kansas City', 'Los Angeles', 'San Francisco']
+Number of Office Locations: 4
+Number of Services:         3
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-02 20:35:56 | INFO | __main__:67 | FUNCTION: create_folders_for_range()
+2025-09-02 20:35:56.783 | INFO     | __main__:create_folders_for_range:67 - FUNCTION: create_folders_for_range()
+2025-09-02 20:35:56 | INFO | __main__:68 | PARAMS: start_year=2020, end_year=2023
+2025-09-02 20:35:56.783 | INFO     | __main__:create_folders_for_range:68 - PARAMS: start_year=2020, end_year=2023
+2025-09-02 20:35:56 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2020
+2025-09-02 20:35:56.783 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2020
+2025-09-02 20:35:56 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2021
+2025-09-02 20:35:56.783 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2021
+2025-09-02 20:35:56 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2022
+2025-09-02 20:35:56.783 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2022
+2025-09-02 20:35:56 | INFO | __main__:78 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2023
+2025-09-02 20:35:56.784 | INFO     | __main__:create_folders_for_range:78 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/year_folders/2023
+2025-09-02 20:35:56 | INFO | __main__:92 | FUNCTION: create_folders_from_list()
+2025-09-02 20:35:56.784 | INFO     | __main__:create_folders_from_list:92 - FUNCTION: create_folders_from_list()
+2025-09-02 20:35:56 | INFO | __main__:93 | PARAMS: folder_list=['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:35:56.784 | INFO     | __main__:create_folders_from_list:93 - PARAMS: folder_list=['data-csv', 'data-excel', 'data-json']
+2025-09-02 20:35:56 | INFO | __main__:103 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-csv
+2025-09-02 20:35:56.784 | INFO     | __main__:create_folders_from_list:103 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-csv
+2025-09-02 20:35:56 | INFO | __main__:103 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-excel
+2025-09-02 20:35:56.784 | INFO     | __main__:create_folders_from_list:103 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-excel
+2025-09-02 20:35:56 | INFO | __main__:103 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-json
+2025-09-02 20:35:56.784 | INFO     | __main__:create_folders_from_list:103 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/named_folders/data-json
+2025-09-02 20:35:56 | INFO | __main__:118 | FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 20:35:56.785 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:118 - FUNCTION: create_prefixed_folders_using_list_comprehension()
+2025-09-02 20:35:56 | INFO | __main__:119 | PARAMS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 20:35:56.785 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:119 - PARAMS: folder_list=['csv', 'excel', 'json'], prefix=output-
+2025-09-02 20:35:56 | INFO | __main__:130 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--csv
+2025-09-02 20:35:56.785 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--csv
+2025-09-02 20:35:56 | INFO | __main__:130 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--excel
+2025-09-02 20:35:56.785 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--excel
+2025-09-02 20:35:56 | INFO | __main__:130 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--json
+2025-09-02 20:35:56.786 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:130 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/prefixed_folders_lc/output--json
+2025-09-02 20:35:56 | INFO | __main__:141 | FUNCTION: create_folders_periodically()
+2025-09-02 20:35:56.786 | INFO     | __main__:create_folders_periodically:141 - FUNCTION: create_folders_periodically()
+2025-09-02 20:35:56 | INFO | __main__:142 | PARAMS: duration_seconds=5, count=3
+2025-09-02 20:35:56.786 | INFO     | __main__:create_folders_periodically:142 - PARAMS: duration_seconds=5, count=3
+2025-09-02 20:35:56 | INFO | __main__:150 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 20:35:56.786 | INFO     | __main__:create_folders_periodically:150 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_1
+2025-09-02 20:35:56 | INFO | __main__:152 | Waiting 5s…
+2025-09-02 20:35:56.786 | INFO     | __main__:create_folders_periodically:152 - Waiting 5s…
+2025-09-02 20:36:01 | INFO | __main__:150 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 20:36:01.791 | INFO     | __main__:create_folders_periodically:150 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_2
+2025-09-02 20:36:01 | INFO | __main__:152 | Waiting 5s…
+2025-09-02 20:36:01.791 | INFO     | __main__:create_folders_periodically:152 - Waiting 5s…
+2025-09-02 20:36:06 | INFO | __main__:150 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 20:36:06.792 | INFO     | __main__:create_folders_periodically:150 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/timed_folders/folder_3
+2025-09-02 20:36:06 | INFO | __main__:166 | FUNCTION: create_standardized_folders()
+2025-09-02 20:36:06.792 | INFO     | __main__:create_standardized_folders:166 - FUNCTION: create_standardized_folders()
+2025-09-02 20:36:06 | INFO | __main__:167 | PARAMS: to_lowercase=True, remove_spaces=True
+2025-09-02 20:36:06.792 | INFO     | __main__:create_standardized_folders:167 - PARAMS: to_lowercase=True, remove_spaces=True
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/north_america
+2025-09-02 20:36:06.793 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/north_america
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/south_america
+2025-09-02 20:36:06.793 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/south_america
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/europe
+2025-09-02 20:36:06.794 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/europe
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/asia
+2025-09-02 20:36:06.794 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/asia
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/africa
+2025-09-02 20:36:06.794 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/africa
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/oceania
+2025-09-02 20:36:06.795 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/oceania
+2025-09-02 20:36:06 | INFO | __main__:180 | Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/middle_east
+2025-09-02 20:36:06.795 | INFO     | __main__:create_standardized_folders:180 - Created: /Users/kevinhennelly/Repos/datafun-02-automation/standardized_folders/middle_east
+2025-09-02 20:36:06 | INFO | __main__:216 | 
+#####################################
+2025-09-02 20:36:06.795 | INFO     | __main__:main:216 - 
+#####################################
+2025-09-02 20:36:06 | INFO | __main__:217 | # Completed execution of main()
+2025-09-02 20:36:06.795 | INFO     | __main__:main:217 - # Completed execution of main()
+2025-09-02 20:36:06 | INFO | __main__:218 | #####################################
+2025-09-02 20:36:06.795 | INFO     | __main__:main:218 - #####################################
